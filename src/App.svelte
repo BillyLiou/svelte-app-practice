@@ -52,13 +52,22 @@
 	</button>
 	<p>{showCount}</p> -->
 
-	<input bind:value={username}>
-	<input bind:value={userpassword}>
-	<input bind:value={email}>
-	<input bind:value={full_name}>
+	<h3>標題在這～</h3>
+	<label for="">Name</label>
+	<input bind:value={username}><br>
+
+	<label for="">password</label>
+	<input bind:value={userpassword}><br>
+
+	<label for="">Email</label>
+	<input bind:value={email}><br>
+
+	<label for="">全名</label>
+	<input bind:value={full_name}><br>
 	<button type="button" on:click={doPost}>
 		點擊訪問api
 	</button>
+	<a href="https://google.com.tw">帶我去google</a>
 	<pre>res: {result} </pre>
 
 </main>
